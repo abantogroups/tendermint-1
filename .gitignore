@@ -1,15 +1,48 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+*.swp
+*.swo
+.bak
+*.bak
+.DS_Store
+build/*
+rpc/test/.tendermint
+.tendermint
+remote_dump
+.revision
+vendor
+.vagrant
+test/p2p/data/
+test/logs
+coverage.txt
+docs/_build
+docs/dist
+docs/.vuepress/dist
+*.log
+abci-cli
+docs/node_modules/
+index.html.md
 
-# Test binary, built with `go test -c`
-*.test
+scripts/wal2json/wal2json
+scripts/cutWALUntil/cutWALUntil
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+.idea/
+*.iml
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+.vscode/
+
+libs/pubsub/query/fuzz_test/output
+shunit2
+
+.tendermint-lite
+addrbook.json
+
+*/vendor
+.vendor-new/
+*/.glide
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.d
+
+.vscode
+
+profile\.out
